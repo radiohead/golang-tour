@@ -11,8 +11,8 @@ func isAlpha(char byte) bool {
 }
 
 func rot13(char byte) byte {
-	var base byte
-	
+  var base byte
+
 	if (char > 96) {
 		base = 95
 	} else {
